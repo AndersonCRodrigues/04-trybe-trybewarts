@@ -30,3 +30,7 @@ form {
 aside #trybewarts-forms-logo {
   height: 500px;
 }
+
+#avaliacao {
+  display: flex;
+}
