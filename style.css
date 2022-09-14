@@ -44,7 +44,7 @@ h3 {
   display: flex;
 }
 
-header #input-email {
+header #input-email2 {
   width: 120px;
   height: 30px;
   border-radius: 8px;
@@ -87,7 +87,7 @@ form {
 }
 
 #info input {
-  width: 40%;
+  width: 50%;
 }
 
 aside #trybewarts-forms-logo {
@@ -96,4 +96,20 @@ aside #trybewarts-forms-logo {
 
 #avaliacao {
   display: flex;
+}
+
+#comentario {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  resize: none;
+}
+
+#counter {
+  position: absolute;
+  top: 90%;
+  right: 0.4%;
 }

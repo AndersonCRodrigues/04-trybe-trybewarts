@@ -15,7 +15,7 @@
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form action="" class="trybewarts-login">
       <div id="container-login">
-        <input type="email" name="email" placeholder="Email" id="input-email">
+        <input type="email" name="email" placeholder="Email" id="input-email2">
         <input type="password" name="password" placeholder="Senha" id="input-password">
         <button type="submit" id="button-login">Entrar</button>
       </div>
@@ -25,18 +25,15 @@
     <form id="evaluation-form" action="" method="get">
       <section id="info">
         <input id="input-name" type="text" placeholder="Nome">
-        <input id="input-lastname" type="text"
-        placeholder="Sobrenome">
+        <input id="input-lastname" type="text" placeholder="Sobrenome">
         <input id="input-email" type="emai" placeholder="Email">
-        <div>
-          <label for="">Casa:</label>
-          <select name="" id="house">
-            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-            <option id="corvinode-house" value="Corvinode">Corvinode</option>
-            <option id="pytherina-house" value="Pytherina">Pytherina</option>
-          </select>
-        </div>
+        <label for="house">Casa:</label>
+        <select name="" id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
       </section>
       <section id="escolha">
         <article id="familia">
@@ -124,10 +121,12 @@
           <input id="rate-dez" name="rate" type="radio">
           <label for="rate-dez">10</label>
         </div>
+
       </section>
       <section id="comentario">
-        <label class="textarea" id="textarea" for="textarea">Deixe seu comentário:</label>
+        <label class="textarea" for="textarea">Deixe seu comentário:</label>
         <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+        <p id="counter">500</p>
       </section>
       <section id="confirma">
         <div>

@@ -1,8 +1,10 @@
 const chkBox = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
-const inputEmail = document.querySelector('#input-email');
+const inputEmail = document.querySelector('#input-email2');
 const inputPassword = document.querySelector('#input-password');
 const inputButton = document.querySelector('#button-login');
+const textArea = document.querySelector('#textarea');
+const contador = document.querySelector('#counter');
 
 Element.prototype.on = Element.prototype.addEventListener;
 
@@ -19,4 +21,10 @@ inputButton.on('click', (event) => {
   } else {
     alert('Email ou senha inválidos.');
   }
+});
+
+textArea.on('keyup', () => {
+  contador.innerText = 500;
+  const caracter = textArea.value.length;
+  contador.innerText -= caracter;
 });
