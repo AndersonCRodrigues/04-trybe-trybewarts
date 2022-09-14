@@ -15,4 +15,9 @@ main , form {
 
 form {
   max-width: 675px;
+  flex-direction: column;
+}
+
+aside #trybewarts-forms-logo {
+  height: 500px;
 }
