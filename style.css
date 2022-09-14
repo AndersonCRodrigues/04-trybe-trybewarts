@@ -4,6 +4,16 @@
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
 }
+footer{
+  background-color: #24292f;
+  display: flex;
+  justify-content: center;
+}
+h3{
+  color: white;
+  margin: 10px;
+}
+
 
 .header {
   display: flex;
@@ -54,4 +64,8 @@
   margin-right: 20px;
   border: none;
   color: white;
+}
+
+#rodape {
+  background-color: #24292f;
 }
