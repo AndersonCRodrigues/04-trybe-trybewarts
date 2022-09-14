@@ -14,7 +14,7 @@ main , form {
 }
 
 form {
-  max-width: 675px;
+  width: 675px;
   flex-direction: column;
 }
 
