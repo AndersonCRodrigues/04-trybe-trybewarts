@@ -18,6 +18,15 @@ form {
   flex-direction: column;
 }
 
+#info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#info input {
+  width: 40%;
+}
+
 aside #trybewarts-forms-logo {
   height: 500px;
 }
