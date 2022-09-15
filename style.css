@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IM+Fell+English&family=Kanit:wght@900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: IM Fell English, serif;
 }
 
 footer {
@@ -86,10 +88,10 @@ main , #evaluation-form {
   width: 675px;
   flex-direction: column;
   justify-content: center;
-  font-size: 1em;
+  font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.514);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  padding: 30px;
+  padding: 0 30px;
   border-radius: 2px;
 }
 
@@ -102,7 +104,6 @@ main , #evaluation-form {
 #info {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
   justify-content: space-evenly;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
@@ -122,14 +123,11 @@ main , #evaluation-form {
   border: none;
 }
 
-
 #info select {
   flex-basis: 37%;
 }
 
 #escolha {
-  margin-top: 30px;
-  padding-bottom: 30px;
   border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
@@ -150,10 +148,9 @@ main , #evaluation-form {
 
 }
 
-
 #avaliacao {
-  margin-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -167,12 +164,15 @@ main , #evaluation-form {
 textarea {
   resize: none;
   margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding-left: 5px;
 }
 
 #counter {
   position: absolute;
   top: 80%;
-  right: 0.4%;
+  right: 1%;
 }
 
 aside #trybewarts-forms-logo {
@@ -185,7 +185,7 @@ aside #trybewarts-forms-logo {
 }
 
 #submit-btn {
-  margin: 10px 0 30px;
+  margin: 10px 0;
   flex-grow: 1;
   height: 30px;
   border-radius: 5px;
